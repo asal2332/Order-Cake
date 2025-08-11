@@ -1,0 +1,435 @@
+
+
+.parallax {
+    background-image: url(img/Cookie-Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+i {
+    cursor: pointer;
+}
+
+.parallax:after {
+    width: 100%;
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    display: block;
+}
+
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 100;
+}
+
+#bag {
+    color: #fff;
+}
+
+.logo {
+    width: 50%;
+    height: 30%;
+    margin: 5%;
+
+}
+
+
+.navbar-nav {
+    color: #fff !important;
+    margin-left: 40%;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.nav-link:hover {
+    color: rgb(74, 72, 72) !important;
+    font-size: 1.3rem;
+    transition: 1s;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.bite {
+    position: absolute;
+    z-index: 100 !important;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    top: 50%;
+    left: 33%;
+    font-size: 4.3rem;
+}
+
+.order {
+    position: absolute;
+    z-index: 100 !important;
+    color: #ffffff;
+    background-color: #F5455F;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-weight: bold;
+    border: none;
+    width: 15%;
+    height: 8%;
+    border-radius: 20px;
+    top: 70%;
+    left: 42%;
+    font-size: 1rem;
+}
+
+.order:hover {
+    background-color: #f36076;
+}
+
+.order2:hover {
+    background-color: #f36076;
+}
+
+.order:active {
+    background-color: #f36076;
+}
+
+.order2:active {
+    background-color: #f36076;
+}
+
+
+.navbar-toggler{
+    margin-top: -20% !important;
+    margin-left: 85% !important;
+ text-align:right !important ;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+
+
+
+.yellow {
+    background-color: #FAD255;
+    height: max-content;
+
+}
+
+.experties {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: black;
+    text-align: center !important;
+    margin: auto !important;
+}
+
+.explain {
+    color: rgb(77, 74, 74);
+    font-size: 1.1rem;
+    text-align: center;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.card-img-top {
+    padding: 3%;
+}
+
+.title-cup {
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.title-honey {
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.honey {
+    margin-top: 1%;
+    color: rgb(77, 74, 74);
+    font-size: 1.2rem;
+    text-align: left;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.order2 {
+    color: #ffffff;
+    background-color: #F5455F;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border: none;
+    width: 25%;
+    margin: auto;
+    padding: auto;
+    font-weight: bold;
+    height: 8%;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.parallax2 {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-image: url(img/cms-bakery-solutions-sap-global-template-1920x500.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.parallax2:after {
+    width: fit-content;
+    height: fit-content;
+    left: 25%;
+    content: "We Accept Events And Party Orders! ";
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    color: #fff;
+    display: block;
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    top: 30%;
+    font-size: 2.5rem;
+}
+
+.comment {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .bite {
+        font-size: 2.5rem;
+        top: 50;
+        margin-left: -20%;
+        right: 10;
+        bottom: 50;
+    }
+
+    .order {
+        width: 27%;
+        height: 8%;
+        top: 65%;
+        margin-left: -20%;
+    }
+
+    .order2 {
+        width: 31%;
+        font-size: 1rem;
+        margin-bottom: 10%;
+        margin-top: -20% !important;
+        height: 8%;
+        top: 65%;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .explain {
+        font-size: 1rem;
+        margin-top: 3%;
+    }
+
+    .yellow {
+        height: max-content;
+    }
+
+    .li-second {
+        text-align: center;
+    }
+
+    .parallax2:after {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .contain {
+        height: max-content;
+    }
+
+    .candy3 {
+        display: none;
+    }
+
+    .coffee {
+        display: none;
+    }
+
+    .candy {
+        width: 60px;
+        height: 80px;
+        margin-top: -20px !important;
+        margin-left: 150px !important;
+    }
+
+    .girl-img {
+        display: none;
+    }
+
+.nav-link{
+    margin-left: 60%;
+    text-align: center;
+    background-color: #15100cd6 !important; 
+        font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 15px;
+    margin-bottom: 3px !important;
+}
+
+.nav-link:target{
+        transition: all 3s !important;
+}
+
+    .comment {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+
+    .contact-info{
+        display: none;
+    }
+
+    .text-center{
+        height: max-content;
+    }
+    .enquire-btn{
+        margin-top: -60px !important;
+        margin-left: 20px !important;
+    }
+
+}
+
+
+.footer-container {
+    background-color: #EF1548;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    top: 30%;
+    font-size: 3.1rem;}
+
+.contact-info {
+    margin-bottom: 30px;
+    color: #fff;
+    margin-top: 7%;
+    margin-left: 40%;
+    font-size: 1.2rem;
+     font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  font-family: "News Cycle", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+input:active{
+    border: none;
+}
+
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.subject-section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.subject-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+.name-bakery{
+      font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    top: 30%;
+    font-size: 2.8rem;
+    margin-top: 8%;
+}
+
+
+.enquire-btn {
+    background-color: #f33763;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    margin-left: -83%;
+    border-radius: 25px ;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.enquire-btn:hover {
+    background-color: #EF1548;
+    color: white;
+}
